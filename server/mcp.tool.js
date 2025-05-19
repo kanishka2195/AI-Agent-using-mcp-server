@@ -8,7 +8,6 @@ const twitterClient = new TwitterApi({
     appSecret: process.env.TWITTER_API_SECRET,
     accessToken: process.env.TWITTER_ACCESS_TOKEN,
     accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
-
 })
 
 
